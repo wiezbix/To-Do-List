@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>To Do List</title>
+    
+</head>
+<body>
+    <div class="web-card">
+
+        <div class="todo-list">
+            <input type="text" class="text-input" placeholder="Task Name">
+            <button class="add-button">ADD</button>
+        </div>
+
+        <div id="tasks-container">
+
+            <div class="task-item">
+                <span>wyrzucic smieci</span>
+                <button onclick="this.parentElement.remove()">Delete</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
